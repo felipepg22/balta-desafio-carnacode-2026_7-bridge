@@ -1,28 +1,30 @@
 ![ES-2](https://github.com/user-attachments/assets/35e710b1-37d0-45c8-96b8-6bc8100f8b36)
 
-## 🥁 CarnaCode 2026 - Desafio 07 - Bridge
+## 🥁 CarnaCode 2026 - Challenge 07 - Bridge
 
-Oi, eu sou o [seu nome aqui] e este é o espaço onde compartilho minha jornada de aprendizado durante o desafio **CarnaCode 2026**, realizado pelo [balta.io](https://balta.io). 👻
+Hi, I'm Felipe Parizzi Galli, and this is where I share my learning journey during the **CarnaCode 2026** challenge, hosted by [balta.io](https://balta.io). 👻
 
-Aqui você vai encontrar projetos, exercícios e códigos que estou desenvolvendo durante o desafio. O objetivo é colocar a mão na massa, testar ideias e registrar minha evolução no mundo da tecnologia.
+Here you'll find projects, exercises, and code that I'm building throughout the challenge. The goal is to get hands-on, test ideas, and track my growth in the tech world.
 
-### Sobre este desafio
-No desafio **Bridge** eu tive que resolver um problema real implementando o **Design Pattern** em questão.
-Neste processo eu aprendi:
-* ✅ Boas Práticas de Software
-* ✅ Código Limpo
-* ✅ SOLID
-* ✅ Design Patterns (Padrões de Projeto)
+### About this challenge
 
-## Problema
-Um aplicativo precisa exibir notificações em diferentes plataformas (Web, Mobile, Desktop) com diferentes tipos de conteúdo (Texto, Imagem, Vídeo). 
-O código atual cria uma explosão de classes combinando cada tipo de notificação com cada plataforma.
+In the **Bridge** challenge, I had to solve a real-world problem by implementing the corresponding **Design Pattern**.
+During this process, I learned:
 
-## Sobre o CarnaCode 2026
-O desafio **CarnaCode 2026** consiste em implementar todos os 23 padrões de projeto (Design Patterns) em cenários reais. Durante os 23 desafios desta jornada, os participantes são submetidos ao aprendizado e prática na idetinficação de códigos não escaláveis e na solução de problemas utilizando padrões de mercado.
+- ✅ Software Best Practices
+- ✅ Clean Code
+- ✅ SOLID
+- ✅ Design Patterns
 
-### eBook - Fundamentos dos Design Patterns
-Minha principal fonte de conhecimento durante o desafio foi o eBook gratuito [Fundamentos dos Design Patterns](https://lp.balta.io/ebook-fundamentos-design-patterns).
+## Problem
 
-### Veja meu progresso no desafio
-[Incluir link para o repositório central]
+An application needs to display notifications on different platforms (Web, Mobile, Desktop) with different content types (Text, Image, Video).
+The current code creates a class explosion by combining each notification type with each platform.
+
+## About CarnaCode 2026
+
+The **CarnaCode 2026** challenge consists of implementing all 23 design patterns in real-world scenarios. Throughout the 23 challenges in this journey, participants are exposed to learning and practice in identifying non-scalable code and solving problems using industry-standard patterns.
+
+### eBook - Design Pattern Fundamentals
+
+My main source of knowledge during the challenge was the free eBook [Fundamentos dos Design Patterns](https://lp.balta.io/ebook-fundamentos-design-patterns).
