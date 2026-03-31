@@ -28,3 +28,32 @@ The **CarnaCode 2026** challenge consists of implementing all 23 design patterns
 ### eBook - Design Pattern Fundamentals
 
 My main source of knowledge during the challenge was the free eBook [Fundamentos dos Design Patterns](https://lp.balta.io/ebook-fundamentos-design-patterns).
+
+## How Bridge Was Implemented In This Repository
+
+This project separates two dimensions that vary independently:
+
+- **Notification type**: `TextNotification`, `ImageNotification`, `VideoNotification`
+- **Target platform**: `WebRenderer`, `MobileRenderer`, `DesktopRenderer`
+
+### Bridge structure in the code
+
+- **Abstraction**: `NotificationRenderer` (`Notifications/Renderers/NotificationRenderer.cs`)
+- **Refined Abstractions**: `WebRenderer`, `MobileRenderer`, `DesktopRenderer`
+- **Implementor**: `INotification` (`Notifications/INotification.cs`)
+- **Concrete Implementors**: `TextNotification`, `ImageNotification`, `VideoNotification`
+
+Each renderer receives an `INotification` in the constructor and delegates the rendering call:
+
+- `WebRenderer` -> `notification.RenderWeb()`
+- `MobileRenderer` -> `notification.RenderMobile()`
+- `DesktopRenderer` -> `notification.RenderDesktop()`
+
+This is used in `Challenge.cs` like:
+
+- `new WebRenderer(textNotification).Render();`
+- `new MobileRenderer(videoNotification).Render();`
+
+Because of this bridge, the project avoids class explosion.  
+To add a new **notification type**, create one class implementing `INotification`.  
+To add a new **platform**, create one renderer inheriting from `NotificationRenderer`.
